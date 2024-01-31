@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "833aa66e-fce7-442f-b252-ae7825f8e4bd",
+		"name": "Node JS File sys",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32504285"
+	},
+	"item": [
+		{
+			"name": "getText File",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getTextFiles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getTextFiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
